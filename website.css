@@ -1,0 +1,94 @@
+* {
+    margin: auto;
+}
+.fcontainer{
+height: 2400px;
+width: 2400px;
+background-color: black;
+}
+header{
+    display: flex;
+height: 200px;
+width: 2400px;
+background-color: aqua;
+}
+.logo{
+display: flex;
+height: 190px;
+width: 290px;
+background-color: blueviolet;
+}
+ img{
+height: 190px;
+width: 280px;
+}
+nav{
+    display: flex;
+height: 180px;
+width: 2000px;
+background-color: red;
+}
+nav ul{
+display: flex;
+height: 150px;
+width: 1800px;
+font-size:xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: blue;
+color: white
+}
+.slider{
+display: flex;      
+flex-wrap: wrap;
+height: 600px;
+width: 2400px;
+background-color: blue;
+}
+.content{
+display: flex;
+flex-wrap: wrap;
+height: 1400px;
+width: 2400px;
+background-color: red;
+}
+.sidebar{  
+    display: flex;
+    flex-wrap: wrap;
+height: 1300px;
+width: 750px;
+background-color: aquamarine;
+}
+.box{
+display: flex;
+flex-wrap: wrap;
+height: 1300px;
+width: 1600px;
+background-color: blue;
+}
+.abox{
+    display: flex;
+height: 400px;
+width: 1590px;
+background-color: blueviolet;
+}
+.bbox{
+display: flex;
+flex-wrap: wrap;
+height: 320px;
+width: 690px;
+background-color: aqua;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+height: 200px;
+width: 2400px;
+background-color: chocolate;
+font: bolder;
+font-size: xx-large;
+font-family: monospace;
+color: beige;
+}
+
+
+

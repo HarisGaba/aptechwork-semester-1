@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+}
+.fcontainer
+{
+display: flex;
+flex-wrap: wrap;
+height: 2400px;
+width: 2400px;
+background-color: black;
+}
+.main
+{
+display: flex;
+flex-wrap: wrap;
+height: 400px;
+width: 475px;
+background-color: red;
+}
