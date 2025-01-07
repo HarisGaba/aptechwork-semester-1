@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child1{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            background-image: url("image1.jpg");
+            background-size: 95px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .child2{
+            width: 100px;
+            height: 100px;   
+            background-color: gray;
+            background-image: url("image2.jpg");
+            background-size: 95px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .child3{
+            width: 100px;
+            height: 100px;
+            background-color: brown;
+            background-image: url("image3.jpg");
+            background-size: 95px;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    .parent{
+        display: flex;
+        background-color: blueviolet;
+        width: 90vw;
+        height: 80vh;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child child1"></div>      
+        <div class="child child2"></div>
+        <div class="child child3"></div>
+    </div>
+</body>
+</html>
