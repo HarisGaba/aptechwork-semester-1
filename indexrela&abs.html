@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .playground{
+            width: 400px;
+            height: 400px;
+            background-color: aqua;
+            margin: auto;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: brown;
+            margin-left: 100px;
+            /* margin-top: 100px; */
+        }
+        .light{
+            position: absolute;
+            height: 120px;
+            width: 60px;
+            background-color: antiquewhite;
+            margin-left: 70px;
+            margin-top: 40px;
+        }
+        .red{
+            /* position: relative; */
+            width: 25px;
+            height: 25px;
+            background-color: red;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        .yellow{
+            width: 25px;
+            height: 25px;
+            background-color: yellow;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 10px;            
+        }
+        .green{
+            width: 25px;
+            height: 25px;
+            background-color: green;
+            border-radius: 50%;
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+        img{
+            position: relative;
+            width: 100px;
+            animation-name: carmove;
+            animation-duration: 2s;
+        }
+        @keyframes carmove{
+            0%{
+                left: 0px;
+            }
+           100%{
+            left: 300px;
+           } 
+        }
+    </style>
+</head>
+<body>
+    <div class="playground">
+        <img src="Elantra-Side-Transparent.webp" alt="">
+        <div class="box">
+            <div class="light">
+                <div class="red"></div>
+                <div class="yellow"></div>
+                <div class="green"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
