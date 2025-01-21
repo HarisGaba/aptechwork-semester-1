@@ -4,12 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+button{
+    color: whitesmoke;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    font-size: xx-large;
+    border-radius: 25%;
+}
+button:hover{
+background-color: red;
+font-size: 25px;
+animation: both;
+animation-duration: 2s;
+}
+
+    </style>
 </head>
 <body>
-        <video src="assets/video.mp4" controls loop autoplay muted width="500px" height="500px"></video>   
+    <button onclick="add()">add</button>
+    <button onclick="sub()">sub</button>
+    <button onclick="multi()">multi</button>
+    <button onclick="divi()">divi</button>
+    <!-- operator +-*/ -->
 
-<audio src="assets/audio.mp3" controls loop autoplay></audio>
+    <script>
+        // document.write(12-2);
+        // document.write("hello world");
+        // alert("hello world");
+        // console.log("hello world");
+function add(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3436.1862709693846!2d67.0743596!3d24.8633316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33ea3db108f41%3A0x42acc4507358b160!2sAptech%20Learning%2C%20Shahrah%20e%20Faisal%20Center!5e1!3m2!1sen!2s!4v1737184514181!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    document.write("<h1> The Addition Value is :"+(num1+num2)+ "</h1>");
+}
+function sub(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The substration Value is :"+(num1-num2)+ "</h1>");
+}
+function multi(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The multiplication Value is :"+(num1*num2)+ "</h1>");
+}
+function divi(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The divided Value is :"+(num1/num2)+ "</h1>");
+}
+
+    </script>
+
 </body>
 </html>
