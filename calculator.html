@@ -4,40 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+button{
+    color: whitesmoke;
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    font-size: xx-large;
+    border-radius: 25%;
+}
+button:hover{
+background-color: red;
+font-size: 25px;
+animation: both;
+animation-duration: 2s;
+}
+
+    </style>
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Calculator</title>
-    <link rel="stylesheet" href="calculator.css">
-</head>
-<body>
-    <div class="calculator">
-        <div class="display" id="display"></div>
-        <div class="buttons">
-            <button class="btn" onclick="appendNumber('1')">1</button>
-            <button class="btn" onclick="appendNumber('2')">2</button>
-            <button class="btn" onclick="appendNumber('3')">3</button>
-            <button class="btn" onclick="appendOperator('+')">+</button>
-            <button class="btn" onclick="appendNumber('4')">4</button>
-            <button class="btn" onclick="appendNumber('5')">5</button>
-            <button class="btn" onclick="appendNumber('6')">6</button>
-            <button class="btn" onclick="appendOperator('-')">-</button>
-            <button class="btn" onclick="appendNumber('7')">7</button>
-            <button class="btn" onclick="appendNumber('8')">8</button>
-            <button class="btn" onclick="appendNumber('9')">9</button>
-            <button class="btn" onclick="appendOperator('*')">*</button>
-            <button class="btn" onclick="appendNumber('0')">0</button>
-            <button class="btn" onclick="appendOperator('/')">/</button>
-            <button class="btn" onclick="clearDisplay()">C</button>
-            <button class="btn" onclick="calculateResult()">=</button>
-        </div>
-    </div>
-    <script src="calculator.js"></script>
-</body>
-</html>
+    <button onclick="add()">Add</button>
+    <button onclick="sub()">Sub</button>
+    <button onclick="multi()">Multi</button>
+    <button onclick="divi()">Divi</button>
+    <!-- operator +-*/ -->
+
+    <script>
+        // document.write(12-2);
+        // document.write("hello world");
+        // alert("hello world");
+        // console.log("hello world");
+function add(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The Addition Value is :"+(num1+num2)+ "</h1>");
+}
+function sub(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The substration Value is :"+(num1-num2)+ "</h1>");
+}
+function multi(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The multiplication Value is :"+(num1*num2)+ "</h1>");
+}
+function divi(){
+    var num1=parseInt(prompt("Enter The First Value"));
+    var num2=parseInt(prompt("Enter The Second Value"));
+
+    document.write("<h1> The divided Value is :"+(num1/num2)+ "</h1>");
+}
+
+    </script>
+
 </body>
 </html>
