@@ -1,0 +1,25 @@
+body{
+    background: #1FA2FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A6FFCB, #12D8FA, #1FA2FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+table tr td input{
+width: 40px;
+transition: 0.2s linear;
+border-radius: 30%;
+}
+table tr td input:hover{
+background-color: black;
+color: whitesmoke;
+border: none;
+}
+

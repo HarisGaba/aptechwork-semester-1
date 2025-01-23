@@ -3,63 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecal.css">
     <title>Document</title>
-    <style>
-button{
-    color: whitesmoke;
-    background-color: black;
-    width: 200px;
-    height: 200px;
-    font-size: xx-large;
-    border-radius: 25%;
-}
-button:hover{
-background-color: red;
-font-size: 25px;
-animation: both;
-animation-duration: 2s;
-}
-
-    </style>
 </head>
 <body>
-    <button onclick="add()">Add</button>
-    <button onclick="sub()">Sub</button>
-    <button onclick="multi()">Multi</button>
-    <button onclick="divi()">Divi</button>
-    <!-- operator +-*/ -->
-
-    <script>
-        // document.write(12-2);
-        // document.write("hello world");
-        // alert("hello world");
-        // console.log("hello world");
-function add(){
-    var num1=parseInt(prompt("Enter The First Value"));
-    var num2=parseInt(prompt("Enter The Second Value"));
-
-    document.write("<h1> The Addition Value is :"+(num1+num2)+ "</h1>");
-}
-function sub(){
-    var num1=parseInt(prompt("Enter The First Value"));
-    var num2=parseInt(prompt("Enter The Second Value"));
-
-    document.write("<h1> The substration Value is :"+(num1-num2)+ "</h1>");
-}
-function multi(){
-    var num1=parseInt(prompt("Enter The First Value"));
-    var num2=parseInt(prompt("Enter The Second Value"));
-
-    document.write("<h1> The multiplication Value is :"+(num1*num2)+ "</h1>");
-}
-function divi(){
-    var num1=parseInt(prompt("Enter The First Value"));
-    var num2=parseInt(prompt("Enter The Second Value"));
-
-    document.write("<h1> The divided Value is :"+(num1/num2)+ "</h1>");
-}
-
-    </script>
-
+    <b><h1>Welcome To Digital Calculator</h1></b>
+    <Div>
+        <form action=""name="question">
+           <input type="text" name="answer">
+            <table>
+                <tr>
+                    <td><input type="button" value="7"onclick="question.answer.value+='7'"></td>
+                    <td><input type="button" value="8"onclick="question.answer.value+='8'"></td>
+                    <td><input type="button" value="9"onclick="question.answer.value+='9'"></td>
+                    <td><input type="button" value="+"onclick="question.answer.value+='+'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4"onclick="question.answer.value+='4'"></td>
+                    <td><input type="button" value="5"onclick="question.answer.value+='5'"></td>
+                    <td><input type="button" value="6"onclick="question.answer.value+='6'"></td>
+                    <td><input type="button" value="-"onclick="question.answer.value+='-'"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="1"onclick="question.answer.value+='1'"></td>
+                    <td><input type="button" value="2"onclick="question.answer.value+='2'"></td>
+                    <td><input type="button" value="3"onclick="question.answer.value+='3'"></td>
+                    <td><input type="button" value="x"onclick="question.answer.value+='*'"></td>
+                </tr>
+                <tr>
+                    <td><input type="reset" value="C"></td>
+                    <td><input type="button" value="0"onclick="question.answer.value+='0'"></td>
+                    <td><input type="button" value="="onclick="question.answer.value=eval(question.answer.value)"></td>
+                    <td><input type="button" value="/"onclick="question.answer.value+='/'"></td>
+                </tr>
+            </table>
+        </form>
+    </Div>
 </body>
 </html>
