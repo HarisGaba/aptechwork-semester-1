@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: rgb(25, 21, 21);
+        }
+        .imgpic{
+            display: flex;
+            justify-content: center;
+        }
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button{
+    margin-left: 5px;
+}
+.content{
+    color: white;
+}
+button:hover{
+    color: yellow;
+    background-color: black;
+}
+    </style>
+    <div class="imgpic">
+        <img src="bulb-off.png" alt="" width="250px" id="bulb">
+
+    </div>
+    <div class="btn">
+        <button onclick="bulboff()">Bulb off</button>
+        <button onclick="bulbon()">Bulb on</button>
+
+    </div>
+    <div class="adison">
+<img src="thomas alva edison.webp" alt="">
+</div>
+<div class="content">
+    <b><p>Thomas Alva Edison (February 11, 1847 – October 18, 1931) was an American inventor and businessman.[1][2][3] He developed many devices in fields such as electric power generation, mass communication, sound recording, and motion pictures.[4] These inventions, which include the phonograph, the motion picture camera, and early versions of the electric light bulb, have had a widespread impact on the modern industrialized world.[5] He was one of the first inventors to apply the principles of organized science and teamwork to the process of invention, working with many researchers and employees. He established the first industrial research laboratory.[6]</p></b>
+
+</div>
+    <script>
+        function bulboff(){
+            document.getElementById("bulb").src = "bulb-off.png"; 
+        }
+        function bulbon(){
+            document.getElementById("bulb").src = "bulb-on.png";
+        }
+    </script>
+</body>
+</html>

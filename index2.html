@@ -6,37 +6,14 @@
     <title>Document</title>
 </head>
 <body>
+    <h2>Login id : <span id="name"></span></h2>
+    <button onclick="func()">Login</button>
+
     <script>
-        // for loop
-        // while loop
-        // do while loop
-
-        var myname = "haris"
-        for(var i = 0;i <= 5; i++){
-            document.write(myname + "<br>");
+        function func(){
+            var myname = prompt("Enter Login Name");
+            document.getElementById("name").innerHTML = myname;
         }
-
-        var arr = ["haris","anas","subhan","muneem","moiz"];
-            document.write(arr[3]);
-
-        
-for (var i = 0; i < arr.length; i++ ){
-    document.write(i);
-    document.write(i + " " + arr[i] + "<br>");
-}
-var i = 0;
-while(i < 5){
-    document.write(i + "<br>");
-    i++
-}
-
-var i =10;
-var myname = "haris"
-
-do{
-    document.write(myname + "<br>");
-    i++;
-}while(i<5);
     </script>
 </body>
 </html>
