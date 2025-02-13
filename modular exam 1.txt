@@ -1,0 +1,153 @@
+ Q:1 
+Which of the following options are new features in HTML5? (multiple options) 
+
+
+<canvas> 
+<div> 
+<article>
+<audio>  
+ 
+ Q:2
+Which of the following options is a text-level semantic tag? 
+
+
+Section 
+Aside 
+Nav 
+Mark
+ 
+Q:3 
+HTML5 Canvas allows the user to create quadratic curves using the ______________ method. 
+
+
+makeQuadraticCurve() 
+quadraticCurveTo() 
+drawQuadraticCurve() 
+quadraticCurve() 
+
+Q:4
+Identify the correct format for using supported audio formats in HTML5. 
+
+
+<audio controls autoplay> <source src="/sampleaudio.mp3" type="audio/mp3" /> <source src="/sampleaudio.wav" type="audio/wav" /> Audio not supported </audio> 
+<audio controls autoplay> <source="/sampleaudio.mp3" type="audio/mp3" /> <source="/sampleaudio.wav" type="audio/wav" /> Audio not supported </audio> 
+<audio controls autoplay> <src="/sampleaudio.mp3" type="audio/mp3" /> <src="/sampleaudio.wav" type="audio/wav" /> Audio not supported </audio> 
+<audio type="autoplay"> <source src="/sampleaudio.mp3" type="audio/mp3" /> <source src="/sampleaudio.wav" type="audio/wav" /> Audio not supported </audio> 
+
+Q:5
+Which of the following JavaScript functions displays a dialog box with some information and OK button? 
+
+
+confirm() 
+prompt() 
+eval() 
+alert() 
+ 
+Q:6
+Which of the following options will be correctly identified by the pattern /[^AB]PQ/? 
+
+
+APQ 
+BPQ 
+CPQ 
+ARQ 
+
+Q:7
+Which of the following units are used for sizing elements on the page in fluid layouts? 
+
+% 
+inch 
+px 
+em 
+
+Q:8
+The ________ flag in ECMAScript 2022 allows the .matchAll() method to return the matches along with their indices in the input string. 
+
+
+/w 
+/u 
+/v 
+/d 
+
+Q:9
+Static initialization blocks are enclosed in braces and are defined using the __________ keyword. 
+
+
+await 
+static 
+extends 
+let 
+
+Q:10
+Which character is introduced to define the private instance fields? 
+
+
+& 
+@ 
+# 
+^ 
+
+Q:11
+__________ refers to the direction of scrolling that initiates the animation. 
+
+
+Static Initialization 
+Nesting 
+Orientation 
+Cascading 
+
+Q:12
+
+The ________ is a CSS pseudo-class introduced in CSS Selectors Level 4 specification. 
+
+
+:target() 
+:has() 
+:lang() 
+:active() 
+
+Q:13
+What can be applied to make Websites adaptable to different screen sizes and devices? 
+
+
+Media queries 
+Viewport meta tag 
+Responsive typography 
+Fluid grid 
+
+Q:14
+What is the purpose of the :has() pseudo-class in CSS Selectors Level 4? 
+
+
+To select a specific child element based on their parent 
+To select all elements based on their tag name 
+To select a specific parent element based on their descendent 
+To select all elements based on their class 
+
+Q:15
+
+Which of the following options are valid values that can be assigned to the text-decoration property? (multiple options) 
+
+
+none 
+overline 
+strike-through 
+line-through 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
