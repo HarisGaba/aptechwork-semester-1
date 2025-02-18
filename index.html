@@ -3,66 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
     <title>Document</title>
 </head>
 <body>
-   <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-             
-                <table class="table table-striped table-dark">
-                    <thead>
-                        <tr>
-                            <th>No</th>
-                            <th>Name</th>
-                            <th>Class</th>
-                            <th>Phone</th>
-                            <th>Address</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>hasan</td>
-                            <td>12</td>
-                            <td>karachi</td>
-                            <td>Pakistan</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>hussain</td>
-                            <td>12</td>
-                            <td>karachi</td>
-                            <td>Pakistan</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Ali</td>
-                            <td>12</td>
-                            <td>karachi</td>
-                            <td>Pakistan</td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>haris</td>
-                            <td>12</td>
-                            <td>karachi</td>
-                            <td>Pakistan</td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                            <td>anas</td>
-                            <td>12</td>
-                            <td>karachi</td>
-                            <td>Pakistan</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
 
-    <script src="bootstrap.bundle.min.js"></script>
+    <h1>Student name is : <span id="txtname"></span></h1>
+    
+
+    <script src="assets/jquery-3.7.1.slim.min.js"></script>
+    <script src="data.json"></script>
+
+    <script>
+
+        $("#txtname").html(data.name);
+
+    </script>
 </body>
 </html>

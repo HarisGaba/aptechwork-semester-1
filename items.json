@@ -1,0 +1,25 @@
+var data = [
+
+    {
+        "title" : "One Lorem ipsum dolor sit amet.",
+        "txt" : "One Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "img" : "img1.jpg"
+    },
+    {
+        "title" : "Two Lorem ipsum dolor sit amet.",
+        "txt" : "Two Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "img" : "img2.jpg"
+    },
+    {
+        "title" : "Three Lorem ipsum dolor sit amet.",
+        "txt" : "Three Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "img" : "img3.jpg"
+    },
+    {
+        "title" : "Four Lorem ipsum dolor sit amet.",
+        "txt" : "Four Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "img" : "img1.jpg"
+    },
+
+
+];

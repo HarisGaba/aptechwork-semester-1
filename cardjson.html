@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row" id="cardarea">
+            
+        </div>
+    </div>
+    
+
+    <script src="assets/jquery-3.7.1.slim.min.js"></script>
+    <script src="items.json"></script>
+
+    <script>
+        $(document).ready(function(){
+            for(var i =0; i < data.length; i++){
+                $("#cardarea").append(`
+                <div class="col-lg-3">
+                <!-- card Start -->
+                <div class="card">
+                    <img src="img/${data[i].img}" alt="" class="img-fluid">
+                    <div class="card-body">
+                        <h5 class="card-title">${data[i].title}</h5>
+                        <p class="card-text">${data[i].txt}</p>
+                        <a href="" class="btn btn-info">Click here</a>
+                    </div>
+                </div>
+                <!-- card end -->
+            </div>
+            
+            `);
+            }
+        });
+    </script>
+
+    
+
+    <script src="assets/bootstrap.bundle.min.js"></script>
+</body>
+</html>
