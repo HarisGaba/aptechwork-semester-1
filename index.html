@@ -3,20 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
     <title>Document</title>
+<style>
+    .hover-effect {
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .hover-effect:hover {
+        transform: scale(1.05);
+        opacity: 0.8;
+    }
+    .container{
+        display: flex;
+    }
+    .card{
+        margin: 25px;
+    }
+</style>
 </head>
 <body>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-info">
+                <div class="container">
+                  <a class="navbar-brand" href="#">Aqua Oasis</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                      <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Collection's -->
+                        <!-- </a> -->
+                        <!-- <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Airpods</a></li>
+                          <li><a class="dropdown-item" href="#">Smart Watches</a></li>
+                          <li><a class="dropdown-item" href="#">Power Banks</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul> -->
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            </div>
+        </div>
+              <!-- Slider strats here -->
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/balint-miko-VajeSiak0nU-unsplash.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/cemre-pacun-8ZW_t0EVMh0-unsplash.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/chuttersnap-Dif0JdAIDig-unsplash.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <!-- slider ends here -->
+<!-- cards start here -->
+<div class="container">
+<div class="card mt-4" style="width: 18rem; margin-left: 25px;">
+    <img src="img/balint-miko-VajeSiak0nU-unsplash.jpg" class="card-img-top img-fluid hover-effect" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Tube Slides</h5>
+      <p class="card-text">Riders descend inside a large, inflatable tube that winds around the slide. Some tube slides are enclosed, while others are open-air.</p>
+    </div>
+  </div>
 
-    <h1>Student name is : <span id="txtname"></span></h1>
-    
+  <div class="card mt-4" style="width: 18rem; margin-left: 25px;">
+    <img src="img/cemre-pacun-8ZW_t0EVMh0-unsplash.jpg" class="card-img-top img-fluid hover-effect" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Body Slides</h5>
+      <p class="card-text">Large slides designed for groups or pairs, where riders use a raft to descend down the slide. These slides are typically wide and feature sharp twists and turns.</p>
+    </div>
+  </div>
+  <div class="card mt-4" style="width: 18rem; margin-left: 25px;">
+    <img src="img/chuttersnap-Dif0JdAIDig-unsplash.jpg" class="card-img-top img-fluid hover-effect" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Wave Slides</h5>
+      <p class="card-text"> A steep, almost vertical slide that gives riders a sudden drop, often with a brief moment of freefall before hitting the water.</p>
+    </div>
+  </div>
+  <div class="card mt-4" style="width: 18rem; margin-left: 25px;">
+    <img src="img/images.jpg" class="card-img-top img-fluid hover-effect" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Aqua Coasters</h5>
+      <p class="card-text"> These combine elements of roller coasters and water slides, where riders are propelled uphill with the help of water jets.</p>
+    </div>
+  </div>
+</div>
 
-    <script src="assets/jquery-3.7.1.slim.min.js"></script>
-    <script src="data.json"></script>
-
-    <script>
-
-        $("#txtname").html(data.name);
-
-    </script>
+    <script src="assets/bootstrap.bundle.min.js"></script>
 </body>
 </html>
